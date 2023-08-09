@@ -1,0 +1,71 @@
+
+.thumb-1{
+  width: 100%;
+  
+}
+.thumb-1:hover{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.video-grid-info{
+  display: grid;
+  grid-template-columns: 45px 1fr;
+  line-height: 20px;
+}
+
+
+.A-N{
+  margin-bottom: 20px;
+}
+
+.A-N,.v-iews{
+    font-size: 12px ;
+    color: rgb(96, 96, 96);
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.prfile-pic{
+width: 36px;
+border-radius: 50px;
+cursor: pointer;
+
+ 
+}
+
+.thumbnai-row{
+ margin-bottom: 8px;
+ position: relative;
+}
+.youtube-grid-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  row-gap: 40px;
+  column-gap: 16px;
+  background-color:rgb(226, 213, 213);
+
+}
+@media(max-width:826px){
+  .youtube-grid-info{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width:827px) and (min-width:1399px){
+  .youtube-grid-info{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media(min-width:1400px){
+  .youtube-grid-info{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+  }
+}
+
+.vid-time{
+  position: absolute;
+  bottom:8px;
+  right: 5px;
+  background-color: black;
+  color: white;
+}
